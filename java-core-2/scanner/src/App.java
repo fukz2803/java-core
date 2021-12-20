@@ -22,7 +22,7 @@ public class App {
         System.out.println("Nhap chuoi 2: ");
         String str4 = sc.nextLine();
 
-        String ketqua2 = str3.length() == str4.length() ? "Hai chuoi bang nhau" : "Hai chuoi khac nhau";
+        String ketqua2 = str3.length() == str4.length() ? "Hai chuoi co kich thuoc bang nhau" : "Hai chuoi co kich thuoc khac nhau";
         System.out.println(ketqua2);
 
         // Tinh diem trung binh
