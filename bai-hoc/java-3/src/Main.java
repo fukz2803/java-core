@@ -10,7 +10,8 @@ public class Main {
 //        dayOfWeek.dayOfWeekCheck();
 //
 //        month.monthCheck();
-        vongLapFor.vongLap();
-
+//        vongLapFor.vongLap();
+//        whileCheck.whileCheck1();
+        doWhile.doWhileCheck();
     }
 }
