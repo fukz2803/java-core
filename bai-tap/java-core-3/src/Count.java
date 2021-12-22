@@ -4,6 +4,8 @@ public class Count {
         int count = 0;
         char kyTu = 'o';
 
+        System.out.println("Cho chuỗi: " + str);
+
         System.out.println("Chữ 'o' xuất hiện ở các vị trí: ");
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == kyTu) {
