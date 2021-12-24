@@ -31,7 +31,7 @@ public class Main {
         String str = sc.next();
         for (int i = 0; i < arrStr.length; i++){
             if (str.equals(arrStr[i])){
-                System.out.println("Vi tri cua chuoi trong mang la: " + i);
+                System.out.printf("Vi tri cua chuoi trong mang la: [%d]",  i);
             }
         }
     }
