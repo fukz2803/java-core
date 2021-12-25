@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 //        Câu 1
-        Shape.square();
-//        Shape.triangle();
+            Shape.square();
+            Shape.triangle();
 
 //        Câu 2
         Loop.strCount();
