@@ -10,18 +10,7 @@ public class ProductService {
         System.out.println("Nhập số lượng: ");
         int quantily = Integer.parseInt(sc.nextLine());
         System.out.println("Lựa chọn đơn vị tính: ");
-        DonVi unit = DonVi.GOI;
-        int choice = sc.nextInt();
-
-        if (choice == 0) {
-            unit = DonVi.GOI;
-        } else if (choice == 1) {
-            unit = DonVi.THUNG;
-        } else if (choice == 2) {
-            unit = DonVi.CHIEC;
-        } else {
-            System.out.println("Không đúng đơn vị tính");
-        }
+        String unit = sc.nextLine();
         System.out.println("Nhập giá gốc: ");
         int giaNhap = sc.nextInt();
         System.out.println("Nhập giá bán: ");
@@ -33,7 +22,7 @@ public class ProductService {
         return newProduct;
     }
 
-    public double tienLai(double giaNhap, double giaBan, double sellNumber) {
+    public int tienLai(int giaNhap, int giaBan, int sellNumber) {
         return (giaBan - giaNhap) * sellNumber;
     }
 
@@ -49,7 +38,7 @@ public class ProductService {
     public void show(Product[] products) {
         for (Product p : products
         ) {
-            System.out.println(p +" Tiền lãi sản phẩm là: "+ tienLai(p.giaNhap,p.giaBan,p.sellNumber));
+            System.out.println(p +" Tiền lãi sản phẩm là: "+ tienLai(p.giaNhap,p.giaBan,p.sellNumber) + " VND");
         }
     }
 }
