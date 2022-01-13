@@ -76,9 +76,9 @@ public class MovieService {
                 return o2.getView() - o1.getView();
             }
         });
-        System.out.println(movies.get(0));
-        System.out.println(movies.get(1));
-        System.out.println(movies.get(2));
+        for (int i = 0; i < 3; i++){
+            System.out.println(movies.get(i));
+        }
     }
 
 }
