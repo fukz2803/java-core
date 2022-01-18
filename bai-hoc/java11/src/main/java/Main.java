@@ -1,3 +1,7 @@
+import bai2.Controller;
+import bai2.Person;
+import bai2.PersonService;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -14,22 +18,14 @@ public class Main {
 //        ArrayList<Sorcer.Player> choiceTeam = service.buildTeam(df,mf,fw,players);
 //        service.show(choiceTeam);
 
-        int username = 123, password = 123456;
-        int guessUser, guessPass;
-        Scanner scanner = new Scanner(System.in);
+//         Scanner sc = new Scanner(System.in);
+//         PersonService service = new PersonService();
+//         ArrayList<Person> person = service.getAllPerson();
+//        System.out.println(service.checkUsername(person,"Q"));
+        Controller.mainMenu();
 
-        boolean check = true;
-        while ()
 
 
-        do {
-            System.out.println("Nhập vào password: ");
-            guessPass = scanner.nextInt();
-        } while((password != guessPass));
-        System.out.println("Nhap lai password");
 
-        System.out.println("Welcome " + guessUser);
-    }
-}
+}}
 
-s
