@@ -1,4 +1,6 @@
-package Exercise2;
+package Exercise2.Model;
+
+import Exercise2.Model.BookModel;
 
 public class Ebook extends BookModel {
     private int year;
@@ -6,7 +8,7 @@ public class Ebook extends BookModel {
     private String image;
     private long downloads;
 
-    public Ebook(int id, String name, String category, String publishingCompany, int year, double capacity, String image, long downloads) {
+    public Ebook(int id, String name, String[] category, String publishingCompany, int year, double capacity, String image, long downloads) {
         super(id, name, category, publishingCompany);
         this.year = year;
         this.capacity = capacity;

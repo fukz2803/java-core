@@ -1,4 +1,6 @@
-package Exercise2;
+package Exercise2.Model;
+
+import Exercise2.Model.BookModel;
 
 public class TextBook extends BookModel {
     private int publishingYear;
@@ -6,7 +8,7 @@ public class TextBook extends BookModel {
     private int pages;
     private String author;
 
-    public TextBook(int id, String name, String category, String publishingCompany, int publishingYear, int quantity, int pages, String author) {
+    public TextBook(int id, String name, String[] category, String publishingCompany, int publishingYear, int quantity, int pages, String author) {
         super(id, name, category, publishingCompany);
         this.publishingYear = publishingYear;
         this.quantity = quantity;
@@ -48,10 +50,6 @@ public class TextBook extends BookModel {
 
     @Override
     public String toString() {
-        return super.toString() +
-                " - " + publishingYear +
-                " - "  + quantity +
-                " - "  + pages +
-                " - "  + author ;
+        return super.toString() + " - " + publishingYear + " - " + quantity + " - " + pages + " - " + author;
     }
 }

@@ -1,12 +1,14 @@
-package Exercise2;
+package Exercise2.Model;
+
+import java.util.Arrays;
 
 public class BookModel {
     private int id;
     private String name;
-    private String category;
+    private String[] category;
     private String publishingCompany;
 
-    public BookModel(int id, String name, String category, String publishingCompany) {
+    public BookModel(int id, String name, String[] category, String publishingCompany) {
         this.id = id;
         this.name = name;
         this.category = category;
@@ -29,11 +31,11 @@ public class BookModel {
         this.name = name;
     }
 
-    public String getCategory() {
+    public String[] getCategory() {
         return category;
     }
 
-    public void setCategory(String category) {
+    public void setCategory(String[] category) {
         this.category = category;
     }
 
@@ -47,6 +49,11 @@ public class BookModel {
 
     @Override
     public String toString() {
-        return id + " - " + name + " - " + category + " - " + publishingCompany;
+        return
+                id +
+                " - " + name +
+                        " - " + Arrays.toString(category) +
+                        " - " + publishingCompany
+               ;
     }
 }
