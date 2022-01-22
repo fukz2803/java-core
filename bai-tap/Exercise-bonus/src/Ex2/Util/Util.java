@@ -1,4 +1,4 @@
-package Ex2;
+package Ex2.Util;
 
 import java.util.Random;
 

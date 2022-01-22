@@ -1,4 +1,9 @@
-package Ex2;
+package Ex2.Controller;
+
+import Ex2.Model.Gender;
+import Ex2.Model.Client;
+import Ex2.Service.ClientService;
+import Ex2.Validate.Validate;
 
 import java.util.ArrayList;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package Ex2;
+package Ex2.Validate;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

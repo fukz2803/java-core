@@ -1,7 +1,9 @@
-package Ex2;
+package Ex2.Service;
+
+import Ex2.Model.Gender;
+import Ex2.Model.Client;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class ClientService {
     ArrayList<Client> clients;
@@ -11,7 +13,7 @@ public class ClientService {
 
     public ArrayList<Client> getAllClient(){
         ArrayList<Client> clients = new ArrayList<>();
-        clients.add(new Client("A",Gender.MALE,"Hà Nội","0912345678","pshipway0@xrea.com"));
+        clients.add(new Client("A", Gender.MALE,"Hà Nội","0912345678","pshipway0@xrea.com"));
         clients.add(new Client("B",Gender.FEMALE,"TP HCM","0912378678","mkain1@trellian.com"));
         clients.add(new Client("C",Gender.MALE,"Huế","0912655678","hvossing2@multiply.com"));
         clients.add(new Client("D",Gender.FEMALE,"Đà Nẵng","0948345678","clongmore3@fotki.com"));

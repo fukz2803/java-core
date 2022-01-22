@@ -1,4 +1,4 @@
-package Ex2;
+package Ex2.Model;
 
 public enum Gender {
     MALE("Nam"), FEMALE("Nữ");

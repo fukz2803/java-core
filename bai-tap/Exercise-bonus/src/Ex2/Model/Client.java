@@ -1,4 +1,6 @@
-package Ex2;
+package Ex2.Model;
+
+import Ex2.Util.Util;
 
 public class Client {
     private String id;

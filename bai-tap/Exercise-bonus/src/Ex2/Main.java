@@ -1,5 +1,9 @@
 package Ex2;
 
+import Ex2.Controller.Controller;
+import Ex2.Model.Client;
+import Ex2.Service.ClientService;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
