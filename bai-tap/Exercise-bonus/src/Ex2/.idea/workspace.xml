@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39ef1568-8e85-4359-a7ab-2cee73ca5ab3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Ex1/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ex1/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Validate.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="240ld5AKeNx2t8smRNCOhYLIgbg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39ef1568-8e85-4359-a7ab-2cee73ca5ab3" name="Changes" comment="" />
+      <created>1642775472935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642775472935</updated>
+    </task>
+    <servers />
+  </component>
+</project>
