@@ -127,7 +127,6 @@ public class Controller {
                 product.getBrand(), product.getCategory()));
         return carts;
 
-        //add vào arraylit chưa
     }
 
     public static void login() {
