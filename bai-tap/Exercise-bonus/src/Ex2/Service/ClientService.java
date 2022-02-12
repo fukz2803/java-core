@@ -4,6 +4,8 @@ import Ex2.Model.Gender;
 import Ex2.Model.Client;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ClientService {
     ArrayList<Client> clients;
@@ -86,5 +88,19 @@ public class ClientService {
         client.setEmail(email);
     }
 
+    public void countByGender(ArrayList<Client> clients){
+        Map<Gender, Integer> list = new HashMap<>();
+        for (Client c : clients
+             ) {
+                if (list.get(c.getGender()) == null){
+                    list.put(c.getGender(),1);
+                    System.out.println(list);
+                }
+                else {
+                    list.put(c.getGender(),list.get(c.getGender())+1);
+                    System.out.println(list);
+                }
+        }
+    }
 
 }

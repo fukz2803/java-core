@@ -10,19 +10,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Controller.mainMenu();
+//        Controller.mainMenu();
 
          Scanner sc = new Scanner(System.in);
          ClientService clientService = new ClientService();
          ArrayList<Client> clients = clientService.getAllClient();
 
-//         clientService.show(clients);
-//         clients.remove();
-//         clientService.show(clients);
-////        Client newclient = clientService.createClient();
-//        clientService.addClient();
-//        clientService.show(clients);
-
+        clientService.countByGender(clients);
 
 
 
