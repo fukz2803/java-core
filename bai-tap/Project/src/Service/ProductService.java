@@ -20,7 +20,9 @@ public class ProductService {
 
     public void getProductByCategory(Category category) {
         int count = 0;
+
         for (Product p : repo.getAllProduct()) {
+
             if (p.getCategory() == category) {
                 System.out.println(p);
                 count++;
@@ -32,22 +34,6 @@ public class ProductService {
         }
     }
 
-//    public void sortCategoryByPriceHTL(Category category){
-//        int count = 0;
-//        ArrayList<Product> sortCategory = new ArrayList<>();
-//        for (Product p : repo.getAllProduct()) {
-//            if (p.getCategory() == category) {
-//                sortCategory.add(p);
-//
-//                System.out.println(sortCategory);
-//                count++;
-//            }
-//        }
-//        System.out.println("Có " + count + " sản phẩm");
-//        if (count == 0) {
-//            System.out.println("Không có sản phẩm nào.");
-//        }
-//    }
 
     public void getProductByBrand(String brand) {
         int count = 0;
