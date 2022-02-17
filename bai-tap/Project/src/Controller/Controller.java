@@ -130,14 +130,15 @@ public class Controller {
     }
 
     public static void login() {
-        System.out.println("Nhập username: ");
-        String username = sc.nextLine();
-        System.out.println("Nhập mật khẩu: ");
-        String password = sc.nextLine();
+
 
         boolean isValidUsername = false;
         while (!isValidUsername) {
             for (User u : users) {
+                System.out.println("Nhập username: ");
+                String username = sc.nextLine();
+                System.out.println("Nhập mật khẩu: ");
+                String password = sc.nextLine();
                 if (u.getUsername().equals(username)) {
                     isValidUsername = true;
                     if (u.getPassword().equals(password)) {
